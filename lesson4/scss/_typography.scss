@@ -1,0 +1,11 @@
+.h1 {
+    color: $color-darkblue;
+    @include roboto-bold;
+    font-size: 69px;
+    margin-top: 174px;
+    margin-bottom: 9px;
+}
+
+.accent {
+    color: $color-accent;
+}

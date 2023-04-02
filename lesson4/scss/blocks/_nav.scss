@@ -1,0 +1,20 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav__link {
+        margin-left: 45px;
+        @include poppins-extrabold;
+        color: $color-text-black;
+        text-decoration: none;
+        position: relative;
+        @include interactive;
+    }
+    
+    .nav__link:hover {
+        bottom: 4px;
+        opacity: 0.7; 
+    }
+}
+

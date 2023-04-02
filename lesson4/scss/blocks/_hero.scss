@@ -1,0 +1,14 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-bottom: 148px;
+
+    &__desc {
+        color: $color-text-light;
+        font-size: 20px;
+        @include poppins-regular;
+        margin-bottom: 50px;
+    }
+}
+

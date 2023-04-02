@@ -1,0 +1,36 @@
+.section {
+    margin-bottom: 160px;
+
+    &--accent {
+        background-color: $color-bg-accent;
+    }
+}
+
+.header {
+    height: 184px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__options {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+.footer {
+    background: $color-bg-accent;
+}
+
+.wrapper {
+    max-width: 1500px;
+    width: 100%;
+    min-height: 200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
